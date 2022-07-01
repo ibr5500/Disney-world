@@ -3,21 +3,19 @@ This is an info app about Disney characters, displays their names, images , movi
 
 ## Disney-world.
 
+### Screenshots.
+##### Desktop:
+<img src='./src/screenshots/screenshot3.png' />
+<img src='./src/screenshots/screenshot4.png' />
+
+##### mobile:
+<img src='./src/screenshots/screenshot1.png' />
+<img src='./src/screenshots/screenshot2.png' />
+
+
 ## Description:
 
 > This is an info app about Disney characters, using disney API, displays their names, images , movies, and Tv Shows.
-
-### In this project I have:
-
-> - Use React hook, Router, logger, ...
-> - Connect React and Redux.
-> - Handle events in a React app.
-> - Written unit tests with React Testing Library.
-> - Use store, actions and reducers in React.
-> - Prepare routes and navigation in your app.
-> - Add layout following [this](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) design.
-> - Deploy the project.
-
 
 ## Built With
 
@@ -26,11 +24,20 @@ This is an info app about Disney characters, displays their names, images , movi
 - Redux
 - [Disney API](https://disneyapi.dev/).
 
-## Live Demo (if available)
+## Live Demo
 
 Please [click](https://disney-world.netlify.app/) for the live demo.
 
 ## Getting Started
+
+- Open your terminal, move to the directory where you want to clone the app (i.e cd Documents)
+- Enter git clone https://github.com/ibr5500/Disney-world.git
+- Change to the directory you just clone into (i.e cd Disney-world)
+- Open index.html from the list of files in your left handside
+- Right click on your opened index.html file and launch the live server to preview
+- Include any possible changes and run "git add ."
+- Commit the changes with a descriptive message (i.e xyz features added)
+- Push the changes to changes to the repository (i.e git push)
 
 ### steps to run the project
 
@@ -66,16 +73,8 @@ To get a local copy up and running follow these simple example steps.
 ```
 npm test
 ```
-- Open your terminal, move to the directory where you want to clone the app (i.e cd Documents)
-- Enter git clone https://github.com/ibr5500/Disney-world.git
-- Change to the directory you just clone into (i.e cd Disney-world)
-- Open index.html from the list of files in your left handside
-- Right click on your opened index.html file and launch the live server to preview
-- Include any possible changes and run "git add ."
-- Commit the changes with a descriptive message (i.e xyz features added)
-- Push the changes to changes to the repository (i.e git push)
 
-## Authors
+## Author
 
 👤 **Ibrahim Ahmat**
 
@@ -91,3 +90,6 @@ Feel free to check the [issues page](../../issues/).
 
 ### Please give a ⭐️ if you like this project!
 
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
