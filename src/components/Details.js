@@ -7,10 +7,6 @@ const Details = () => {
   const details = useSelector((state) => state.characters);
   const charDetails = details.filter((char) => +char.id === +character.id);
 
-  useEffect(() => {
-    if (window.location.href === `/${character}`) window.location.href = '/';
-  });
-
   return (
     <div className="details-container">
       {charDetails.map((char, index) => (
