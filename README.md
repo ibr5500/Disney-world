@@ -30,6 +30,10 @@ This is an info app about Disney characters, displays their names, images , movi
 
 Please [click](https://disney-world.netlify.app/) for the live demo.
 
+## Demo video:
+
+Please [Click](https://www.loom.com/share/09d0ffbf633241738055946b211bf6e8) to watch the demo video.
+
 ## Getting Started
 
 ### steps to run the project
