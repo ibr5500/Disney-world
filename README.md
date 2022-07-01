@@ -28,7 +28,7 @@ This is an info app about Disney characters, displays their names, images , movi
 
 ## Live Demo (if available)
 
-Not available
+Please [click](disney-world.netlify.app) for the live demo.
 
 ## Getting Started
 
