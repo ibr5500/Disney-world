@@ -32,8 +32,8 @@ nav {
 }
 
 .left a {
-   text-decoration: none;
-   color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 /* categories */
@@ -71,7 +71,8 @@ nav {
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  /*margin: 0 5px 0 0;*/
+
+  /* margin: 0 5px 0 0; */
 }
 
 .character-name {
@@ -103,10 +104,12 @@ nav {
   width: auto;
   height: auto;
 }
+
 .name h4 span {
   font-size: 1rem;
   margin: 0 5px 0 0;
 }
+
 .details ul {
   list-style: none;
 }
@@ -119,7 +122,6 @@ nav {
   text-align: left;
 }
 
-
 @media screen and (max-width: 768px) {
   .container {
     columns: 1;
@@ -131,14 +133,16 @@ nav {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .character-img {
     width: 95%;
   }
+
   .character-name {
     font-size: 1rem;
     margin: 10px auto 0 auto;
   }
+
   a {
     width: fit-content;
     margin: 0 auto;
