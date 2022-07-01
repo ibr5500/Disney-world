@@ -94,6 +94,11 @@ Feel free to check the [issues page](../../issues/).
 
 ### Please give a ⭐️ if you like this project!
 
+## Acknowledgments:
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) - for original design.
+- [Disney API](https://api.disneyapi.dev) for the data.
+- Great appreciation to [Microverse](www.microverse.org) staff (Students Success, Code Reviewer, Coding partners, ..., etc.)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
