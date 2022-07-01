@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #4369b2;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 45px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff; /* delete later */
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.center {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* categories */
+.container {
+  columns: 2;
+  width: 80%;
+  padding: 0 5px;
+  margin: 20px auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input-container {
+  width: fit-content;
+  margin: 10px 0 10px 30px;
+  height: auto;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.card {
+  width: 99%;
+  padding: 5px;
+}
+
+.card:first-child {
+  margin: -1px 0 0 0;
+}
+
+.row-bg {
+  height: auto;
+  background-color: #5e7cb4;
+}
+
+.details-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #fff;
+  width: 90%;
+}
+
+.details-link:hover {
+  transform: scale(1.04, 1.04);
+}
+
+.character-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.character-name {
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.details-container {
+  width: 60%;
+  height: auto;
+  margin: 35px auto;
+}
+
+.details {
+  width: fit-content;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.detail-img {
+  text-align: center;
+}
+
+.detail-img img {
+  border-radius: 10px;
+  width: 340px;
+  height: 300px;
+}
+
+.name h4 span {
+  font-size: 1rem;
+  margin: 0 5px 0 0;
+}
+
+.details ul {
+  list-style: none;
+}
+
+.movies {
+  margin: 5px 0;
+}
+
+.details ul li {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .details-link {
+    flex-direction: column;
+    width: auto;
+    height: 240px;
+    margin: 10px 0;
+  }
+
+  .character-img {
+    width: auto;
+  }
+
+  .character-name {
+    font-size: 1rem;
+    margin: 10px auto 0 auto;
+  }
+
+  a {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .details-container {
+    width: 50%;
+    height: auto;
+    margin: 35px 40px;
+  }
+
+  .detail-img img {
+    width: 220px;
+    height: 220px;
+    margin: 0 0 20px 0;
+  }
+}
