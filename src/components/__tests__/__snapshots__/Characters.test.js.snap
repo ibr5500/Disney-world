@@ -5,9 +5,3 @@ exports[`Test for Characters page Render the Characters 1`] = `
   className="container"
 />
 `;
-
-exports[`Test for Characters page Should render the Characters 1`] = `
-<div
-  className="container"
-/>
-`;
