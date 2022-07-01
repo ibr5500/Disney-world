@@ -1,39 +1,152 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #4369b2;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 45px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff; /* delete later */
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.center {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.left a {
+   text-decoration: none;
+   color: #fff;
+}
+
+/* categories */
+.container {
+  columns: 2;
+  width: auto;
+  padding: 0 5px;
+  margin: 50px auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container div {
+  width: 100%;
+}
+
+.row-bg {
+  background-color: #5e7cb4;
+  border-radius: 10px;
+}
+
+.details-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0 10px 10px;
+  width: 90%;
+}
+
+.details-link:hover {
+  transform: scale(1.04, 1.04);
+}
+
+.character-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  /*margin: 0 5px 0 0;*/
+}
+
+.character-name {
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.details-container {
+  width: 50%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.details {
+  width: fit-content;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.detail-img {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detail-img img {
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+.name h4 span {
+  font-size: 1rem;
+  margin: 0 5px 0 0;
+}
+.details ul {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movies {
+  margin: 5px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.details ul li {
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .container {
+    columns: 1;
+    margin: 50px 20px;
   }
 
-  to {
-    transform: rotate(360deg);
+  .details-link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .character-img {
+    width: 95%;
+  }
+  .character-name {
+    font-size: 1rem;
+    margin: 10px auto 0 auto;
+  }
+  a {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .details-container {
+    width: 50%;
+    height: auto;
+    margin: 20px 30px auto 30px;
   }
 }
