@@ -13,7 +13,8 @@ export const fetchData = () => async (dispatch) => {
 
 export const charactersFilter = (search) => ({ type: FILTER, payload: search });
 
-const charactersReducer = (action, state = characters) => {
+// eslint-disable-next-line default-param-last
+const charactersReducer = (state = characters, action) => {
   switch (action.type) {
     case FILTER: {
       return state.filter((character) => {
