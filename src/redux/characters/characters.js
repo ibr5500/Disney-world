@@ -13,7 +13,7 @@ export const fetchData = () => async (dispatch) => {
 
 export const charactersFilter = (search) => ({ type: FILTER, payload: search });
 
-const charactersReducer = (state = characters, action) => {
+const charactersReducer = (action, state = characters) => {
   switch (action.type) {
     case FILTER: {
       return state.filter((character) => {

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchData, charactersFilter } from '../redux/characters/characters';
 
-const Characters = () => {
+function Characters() {
   const displayCharacters = useSelector((state) => state.characters);
   const dispatch = useDispatch();
 
@@ -48,6 +48,6 @@ const Characters = () => {
       </div>
     </>
   );
-};
+}
 
 export default Characters;

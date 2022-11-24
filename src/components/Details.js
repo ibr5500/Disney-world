@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 
-const Details = () => {
+function Details() {
   const character = useParams();
   const details = useSelector((state) => state.characters);
   const charDetails = details.filter((char) => +char.id === +character.id);
@@ -42,6 +42,6 @@ const Details = () => {
       ))}
     </div>
   );
-};
+}
 
 export default Details;
