@@ -3,7 +3,7 @@ import axios from 'axios';
 const GET_DATA = 'DISNEY_WORLD/redux/GET_DATA';
 const FILTER = 'DISNEY_WORLD/redux/FILTER';
 
-const baseURL = 'https://api.disneyapi.dev/characters';
+const baseURL = 'https://api.disneyapi.dev/character';
 const characters = [];
 
 export const fetchData = () => async (dispatch) => {
